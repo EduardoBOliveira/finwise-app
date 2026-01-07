@@ -32,7 +32,7 @@ O projeto foi construído com foco em **boa experiência do usuário**, **arquit
 
 ## 📁 Estrutura do Projeto (resumida)
 
-```txt
+```
 src/
  ├─ components/     # Componentes reutilizáveis
  ├─ pages/          # Páginas da aplicação
@@ -40,15 +40,20 @@ src/
  ├─ hooks/          # Hooks customizados
  ├─ utils/          # Funções utilitárias
  └─ styles/         # Estilos globais
-🚀 Como rodar o projeto localmente
+```
+
+---
+
+## 🚀 Como rodar o projeto localmente
+
 Pré-requisitos
 Node.js (versão LTS recomendada)
 
 npm ou pnpm
 
 Passo a passo
-bash
-Copiar código
+
+```
 # Clone o repositório
 git clone https://github.com/EduardoBOliveira/finwise-app.git
 
@@ -62,40 +67,45 @@ npm install
 npm run dev
 A aplicação estará disponível em:
 
-arduino
-Copiar código
 http://localhost:8080
-🔐 Variáveis de Ambiente
+```
+
+---
+
+# 🔐 Variáveis de Ambiente
+
 Crie um arquivo .env.local na raiz do projeto:
 
-env
-Copiar código
+```
 VITE_SUPABASE_URL=your_supabase_url
 VITE_SUPABASE_PUBLISHABLE_KEY=your_supabase_anon_key
 VITE_SUPABASE_PROJECT_ID=your_project_id
 ⚠️ As variáveis de ambiente não devem ser commitadas no repositório.
+```
 
-🏗️ Build para Produção
-bash
-Copiar código
+# 🏗️ Build para Produção
+
 npm run build
 Para visualizar o build localmente:
 
-bash
-Copiar código
 npm run preview
-🌐 Deploy
+
+# 🌐 Deploy
+
 O projeto é compatível com plataformas como Vercel, Netlify ou qualquer serviço que suporte aplicações Vite/React.
 
-📌 Status do Projeto
-🟢 Em desenvolvimento ativo
-📈 Evoluindo com foco em performance, UX e novos insights financeiros
+# 📌 Status do Projeto
 
-👤 Autor
+# 🟢 Em desenvolvimento ativo
+
+# 📈 Evoluindo com foco em performance, UX e novos insights financeiros
+
+# 👤 Autor
+
 Desenvolvido por Eduardo Bezerra
 📎 GitHub: @EduardoBOliveira
 
-📄 Licença
+# 📄 Licença
+
 Este projeto é de uso pessoal e educacional.
 Sinta-se à vontade para estudar, adaptar e evoluir.
-```
