@@ -97,6 +97,7 @@ O projeto é compatível com plataformas como Vercel, Netlify ou qualquer servi�
 # 📌 Status do Projeto
 
 🟢 Em desenvolvimento ativo
+
 📈 Evoluindo com foco em performance, UX e novos insights financeiros
 
 # 👤 Autor
