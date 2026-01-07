@@ -49,7 +49,7 @@ src/
 Pré-requisitos
 Node.js (versão LTS recomendada)
 
-npm ou pnpm
+- npm ou pnpm
 
 Passo a passo
 
@@ -72,7 +72,7 @@ http://localhost:8080
 
 ---
 
-# 🔐 Variáveis de Ambiente
+## 🔐 Variáveis de Ambiente
 
 Crie um arquivo .env.local na raiz do projeto:
 
@@ -83,29 +83,46 @@ VITE_SUPABASE_PROJECT_ID=your_project_id
 ⚠️ As variáveis de ambiente não devem ser commitadas no repositório.
 ```
 
-# 🏗️ Build para Produção
+---
 
-npm run build
+## 🏗️ Build para Produção
+
+- npm run build
+
 Para visualizar o build localmente:
 
-npm run preview
+- npm run preview
 
-# 🌐 Deploy
+---
 
-O projeto é compatível com plataformas como Vercel, Netlify ou qualquer serviço que suporte aplicações Vite/React.
+## 🌐 Deploy
 
-# 📌 Status do Projeto
+O projeto é compatível com plataformas como
+
+- Vercel
+- Netlify
+
+ou qualquer serviço que suporte aplicações Vite/React.
+
+---
+
+## 📌 Status do Projeto
 
 🟢 Em desenvolvimento ativo
 
 📈 Evoluindo com foco em performance, UX e novos insights financeiros
 
-# 👤 Autor
+---
+
+## 👤 Autor
 
 Desenvolvido por Eduardo Bezerra
+
 📎 GitHub: @EduardoBOliveira
 
-# 📄 Licença
+---
+
+## 📄 Licença
 
 Este projeto é de uso pessoal e educacional.
 Sinta-se à vontade para estudar, adaptar e evoluir.
